@@ -1,0 +1,17 @@
+server:
+  port: 9600
+
+person:
+  lastName: zhangsan
+  age: 18
+  boss: false
+  birth: 2018/12/12
+  maps:
+    k1: v1
+    k2: v2
+  lists:
+    - lisi
+    - zhaoliu
+  dog:
+    name: xiaogou
+    age: 2
