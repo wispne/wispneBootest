@@ -1,0 +1,28 @@
+周报地址 \\192.168.2.181\shared\03研发项目\_工作报告
+maven默认存储包地址：C:\Users\Administrator\.m2\repository
+邮箱地址 https://mail.cstnet.cn/
+SVN地址 https://39.105.57.207:444/svn/
+gitbook serve --lrport 35288 --port 4001 /path2/your_another_doc_dir/
+   
+   
+   1.为什么不建议使用订单号作为主键?
+   因为订单号是业务主键，业务主键一旦修改会改很多别的关联表，所以最好用代理主键
+
+ 
+待完成功能：//生产制造里面的生成订单号
+            newsMapper 里面的isAuditPermission方法需不需要
+            新闻删除权限
+            
+            
+
+
+application/json
+
+博客：
+@PropertySource不能解析yml文件
+@Configure @Bean 合用
+
+  
+   要改的接口文档：
+   
+愚かなる弟よ......このオレを杀したくば恨め！憎め！そしてみにくく生きのびるがいい.........逃げて...逃げて...生にしがみつくがいい，そして　いつがオレと同じ　眼　をもってオレの前に来い

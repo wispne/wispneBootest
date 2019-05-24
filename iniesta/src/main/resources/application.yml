@@ -2,8 +2,8 @@ server:
   port: 9600
 
 person:
-  lastName: zhangsan
-  age: 18
+  lastName: 李四${random.uuid}
+  age: ${random.int}
   boss: false
   birth: 2018/12/12
   maps:
@@ -13,5 +13,5 @@ person:
     - lisi
     - zhaoliu
   dog:
-    name: xiaogou
+    name: ${person.lastName}_dog
     age: 2
