@@ -1,25 +1,5 @@
-spring:
-  profiles:
-    active: dev
-
-
 server:
   port: 9600
-
-person:
-  lastName: 李四${random.uuid}
-  age: ${random.int}
-  boss: false
-  birth: 2018/12/12
-  maps:
-    k1: v1
-    k2: v2
-  lists:
-    - lisi
-    - zhaoliu
-  dog:
-    name: ${person.lastName}_dog
-    age: 2
 
 logging:
   level:
