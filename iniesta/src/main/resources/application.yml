@@ -20,3 +20,9 @@ person:
   dog:
     name: ${person.lastName}_dog
     age: 2
+
+logging:
+  level:
+    com.pw.wispne.iniesta: debug
+
+  path: logs
