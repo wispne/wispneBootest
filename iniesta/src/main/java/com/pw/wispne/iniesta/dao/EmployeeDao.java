@@ -4,11 +4,11 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 
+import com.pw.wispne.iniesta.entities.Department;
+import com.pw.wispne.iniesta.entities.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import com.atguigu.springmvc.crud.entities.Department;
-import com.atguigu.springmvc.crud.entities.Employee;
 
 @Repository
 public class EmployeeDao {

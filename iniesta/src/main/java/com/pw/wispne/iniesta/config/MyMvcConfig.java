@@ -1,19 +1,16 @@
 package com.pw.wispne.iniesta.config;
 
-import com.pw.wispne.iniesta.helloworld.service.HelloService;
-import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport;
-import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @Configuration
-public class MyMvcConfig extends WebMvcConfigurationSupport {
-
+public class MyMvcConfig implements WebMvcConfigurer {
     @Override
-    protected void addViewControllers(ViewControllerRegistry registry) {
-        //super.addViewControllers(registry);
-        registry.addViewController("/caonimabi").setViewName("success");
-
+    public void addViewControllers(ViewControllerRegistry registry) {
+        registry.addViewController("/").setViewName("login");
+        registry.addViewController("/login.html").setViewName("login");
     }
 }

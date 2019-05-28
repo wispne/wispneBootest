@@ -21,6 +21,6 @@ gitbook serve --lrport 35288 --port 4001 /path2/your_another_doc_dir/
 博客：
 @PropertySource不能解析yml文件
 @Configure @Bean 合用
-
+@EnableWebMvc,WebMvcConfigurationSupport,WebMvcConfigurer和WebMvcConfigurationAdapter区别 和遇到的坑
 面试：
 事务处理AOP

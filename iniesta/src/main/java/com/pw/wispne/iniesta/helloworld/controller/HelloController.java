@@ -12,7 +12,10 @@ import java.util.Map;
 @Controller
 public class HelloController {
 
-
+//    @RequestMapping({"/","/login.html"})
+//    public String login(){
+//        return "login";
+//    }
 
     @RequestMapping("/success")
     public String success(Map<String,Object> map){

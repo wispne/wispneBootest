@@ -4,9 +4,9 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 
+import com.pw.wispne.iniesta.entities.Department;
 import org.springframework.stereotype.Repository;
 
-import com.atguigu.springmvc.crud.entities.Department;
 
 @Repository
 public class DepartmentDao {
