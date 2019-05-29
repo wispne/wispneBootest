@@ -6,3 +6,9 @@ logging:
     com.pw.wispne.iniesta: debug
 
   path: logs
+spring:
+  messages:
+    basename: i18n.login
+
+  thymeleaf:
+    cache: false
