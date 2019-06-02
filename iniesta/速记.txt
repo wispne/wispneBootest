@@ -19,8 +19,23 @@ gitbook serve --lrport 35288 --port 4001 /path2/your_another_doc_dir/
 愚かなる弟よ......このオレを杀したくば恨め！憎め！そしてみにくく生きのびるがいい.........逃げて...逃げて...生にしがみつくがいい，そして　いつがオレと同じ　眼　をもってオレの前に来い
 
 博客：
-@PropertySource不能解析yml文件
-@Configure @Bean 合用
-@EnableWebMvc,WebMvcConfigurationSupport,WebMvcConfigurer和WebMvcConfigurationAdapter区别 和遇到的坑
+1@PropertySource不能解析yml文件
+2@Configure @Bean 合用
+3@EnableWebMvc,WebMvcConfigurationSupport,WebMvcConfigurer和WebMvcConfigurationAdapter区别 和遇到的坑
+4 1.在虚拟机的centos 中安装 docker 的mysql 镜像。
+
+  docker run --name mysql01 -p 3306:3306 -e MYSQL_ROOT_PASSWORD=123456 -d mysql:latest
+  2 .在虚拟机外面通过客户端访问docker安装的mysql ，连接失败
+
+  （1）进入镜像中的mysql（ti 后面的字符串是mysql镜像ID）
+
+  docker exec -it 2cbb0f246353 /bin/bash
+  （2）登录mysql
+
+  mysql -u root -p
+  （3）修改root 可以通过任何客户端连接
+
+  ALTER USER 'root'@'%' IDENTIFIED WITH mysql_native_password BY '123456';
+
 面试：
 事务处理AOP
