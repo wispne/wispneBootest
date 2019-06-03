@@ -18,4 +18,4 @@ spring:
     username: root
     password: 123456
     url: jdbc:mysql://129.28.193.232:3306/mccloud?useSSL=false
-    driver-class-name: com.mysql.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
