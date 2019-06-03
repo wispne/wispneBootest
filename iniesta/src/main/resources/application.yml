@@ -14,3 +14,8 @@ spring:
     cache: false
   mvc:
     date-format: yyyy-MM-dd HH:mm:ss
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://129.28.193.232:3306/mccloud?useSSL=false
+    driver-class-name: com.mysql.jdbc.Driver
