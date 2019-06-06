@@ -12,11 +12,6 @@ gitbook serve --lrport 35288 --port 4001 /path2/your_another_doc_dir/
 待完成功能：//生产制造里面的生成订单号
             newsMapper 里面的isAuditPermission方法需不需要
             新闻删除权限
-            
-
-要改的接口文档：
-   
-愚かなる弟よ......このオレを杀したくば恨め！憎め！そしてみにくく生きのびるがいい.........逃げて...逃げて...生にしがみつくがいい，そして　いつがオレと同じ　眼　をもってオレの前に来い
 
 博客：
 1@PropertySource不能解析yml文件
