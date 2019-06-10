@@ -3,13 +3,13 @@ package com.wispne.cache.service;
 import com.wispne.cache.bean.Employee;
 import com.wispne.cache.mapper.EmployeeMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.CacheConfig;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.CachePut;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
 import java.util.Arrays;
-
 @Service
 public class EmployeeService {
     @Autowired
